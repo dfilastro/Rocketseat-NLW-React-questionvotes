@@ -19,6 +19,12 @@
     margin-right: 8px;
   }
 
+  &.outlined {
+    background: #fff;
+    border: 1px solid #835afd;
+    color: #835afd;
+  }
+
   &:not(:disabled):hover {
     // only applies "hover" if the button is`t disable
     filter: brightness(0.9);
